@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Toe</title>
+</head>
+<body>
+    <main>
+        <div class="jugadores">
+            <h5>Turn For</h5>
+            <div class="celdas" >
+                <span class="celda X">X</span>
+                <span class="celda O">O</span>
+                <div class="bg"></div>
+            </div>
+        </div>
+        <div class="cuadro">
+            <button value="" class="cajas" onclick="AsignarValor(0)"></button >
+            <button value="" class="cajas" onclick="AsignarValor(1)" ></button >
+            <button value="" class="cajas" onclick="AsignarValor(2)" ></button >
+            <button value="" class="cajas" onclick="AsignarValor(3)" ></button >
+            <button value="" class="cajas" onclick="AsignarValor(4)" ></button >
+            <button value="" class="cajas" onclick="AsignarValor(5)" ></button >
+            <button value="" class="cajas" onclick="AsignarValor(6)" ></button >
+            <button value="" class="cajas" onclick="AsignarValor(7)" ></button >
+            <button value="" class="cajas" onclick="AsignarValor(8)" ></button >
+        </div>
+        <div class="finish">
+            <h2 id="ganador"></h2>
+            <button class="nuevoJuego" onclick="nuevoJuego()">Play Again</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
